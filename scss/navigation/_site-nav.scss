@@ -1,0 +1,139 @@
+/*** Variables ***/
+
+///UNDERLINE THE SECTION YOU'RE IN
+
+
+$light-blue: #37b5da;
+$green: #4A9E3D;
+/*** Styles ***/
+
+.nav-background {
+    // background-color: rgba(0, 0, 0, 0.247);
+    // padding: 0 16%;
+}
+
+.site-nav {
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 1rem 1rem;
+
+    .donate-link-nav {
+        color: white;
+        margin-right: 1.5rem;
+        border: 2px solid #C12626;
+        background: #8D1C1C;
+        padding: 0.3rem 0.8rem;
+        line-height: 1;
+    }
+
+    .donate-link-nav:hover {
+        text-decoration: none;
+        background: green;
+    }
+
+
+    .logo-item {
+        margin-right: auto;
+    }
+
+
+    
+
+    .nav-link {
+        color: white;
+        font-size: 18px;
+    }
+
+
+}
+
+.list-view {
+    display: none;
+}
+
+.icon-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: 80px; margin-left: auto;
+    }
+
+
+    .fa-bars {
+        width: 30px;
+    }
+}
+
+@media(min-width:600px) {
+    
+    .site-nav {
+        .icon-view {
+            .donate-link-nav {
+                margin-right: 1.7rem;
+            }
+        }
+    }
+}
+
+@media(min-width: 900px) {
+    
+    .icon-view{
+            display: none;
+        }
+
+    .list-view {
+
+        .logo-big {
+            margin-left: 1rem;
+        }
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1rem;
+
+        .donate-link-nav {
+            border: 2px solid #C12626;
+            padding: 0.6rem 1.3rem;
+            // color: $green;
+        }
+
+        .nav-link:hover {
+            text-decoration: none;
+            padding-bottom: 4px;
+            border-bottom: 1px solid $green;
+        }
+
+        .nav-item {
+            padding-right: 2.3rem;
+        }
+
+     
+    
+        .logo {
+            width: 100px;
+        }
+    
+        .donate-nav-item {
+            padding-right: 0;
+        }
+    
+        .donate-link-nav:hover {
+            background: #C12626;
+            color: white;
+        }
+    }
+    
+}
+
+@media(min-width: 1200px) {
+
+}
+
+@media(min-width: 1600px) {
+
+}
