@@ -64,18 +64,15 @@ $green: #4A9E3D;
     }
 }
 
-@media(min-width:600px) {
+@media(min-width:650px) {
     
     .site-nav {
         .icon-view {
+            display: none;
             .donate-link-nav {
                 margin-right: 1.5rem;
             }
         }
-    }
-
-    .icon-view{
-        display: none;
     }
 
     .list-view {

@@ -21,7 +21,6 @@ $sm-h3: 1.728em;
 $sm-txt: 1.2rem;
 
 /*** Styles ***/
-
 .sm-txt {
     font-size: $sm-txt;
 }
@@ -40,7 +39,7 @@ h2, h3, h4 {
     font-weight: 300;
 }
 
-// small viev
+// small view
 
 .missions-section {
     .missions-title {
@@ -48,11 +47,11 @@ h2, h3, h4 {
     } 
 
     .mission-info {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
  }
 
-.home {
+
     .main-title {
         font-size: 2.488em;
         font-family: 'Roboto', sans-serif;
@@ -73,10 +72,10 @@ h2, h3, h4 {
 
     .goals-section {
         .value {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
     }
-}
+
 
 .copyright {
     font-size: 0.7rem;
@@ -85,7 +84,18 @@ h2, h3, h4 {
 
 @media(min-width: 600px)
 {
-    
+    .missions-section {
+        .mission-info {
+            font-size: 1.2rem;
+        }
+     }
+
+     .goals-section {
+        .value {
+            font-size: 1.2rem;
+        }
+    }
+
 
 }
 

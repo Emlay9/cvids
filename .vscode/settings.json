@@ -1,0 +1,10 @@
+{
+    "stylelint.config": {
+        "rules": {
+            "selector-max-class": 3,
+            "no-descending-specificity": true
+        }
+    },
+    "html.format.indentInnerHtml": true,
+    "html.format.enable": true
+}
